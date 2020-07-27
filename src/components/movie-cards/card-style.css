@@ -1,0 +1,26 @@
+.movie-card {
+  border: none;
+  box-shadow: 3px 6px 28px -4px rgba(0,0,0,0.22);
+  padding: 1cm;
+  background:#FFB5A7;
+  color: white;
+  margin: 5px; 
+  transition: ease-in-out 420ms;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 280px;
+}
+
+.movie-card:hover{
+  filter:brightness(0.4);
+  filter:blur(50%);
+}
+
+.poster{
+  height: 250px;
+}
+
+.poster-title{
+  font-size: 20px;
+}

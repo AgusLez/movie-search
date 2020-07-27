@@ -1,0 +1,50 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #edf2f4;
+  box-shadow: 10px 10px 29px -5px rgba(0,0,0,0.19);
+  z-index: 4;
+}
+
+form{
+  display: flex;
+}
+
+.logo-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title{
+  font-family: 'Megrim', cursive;
+}
+
+.home-logo{
+  height: 50px;
+  width: 50px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  width: 300px;
+  height: 50px;
+}
+
+.button { 
+  border: none;
+  outline: none;
+  background-color: #FCD5CE;
+  
+}
+
+.search-button {
+  height: 35px;
+  width: 35px;
+}
